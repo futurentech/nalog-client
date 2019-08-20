@@ -4,8 +4,6 @@ import unisoft.ws.*;
 import unisoft.ws.fnsndscaws2.request.NdsRequest2;
 import unisoft.ws.fnsndscaws2.request.ObjectFactory;
 import unisoft.ws.fnsndscaws2.response.NdsResponse2;
-
-import javax.xml.ws.WebServiceException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
