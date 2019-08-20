@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f37dd5f-936e-49ec-8320-ab444c22c7dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f37dd5f-936e-49ec-8320-ab444c22c7dc" name="Default Changelist" comment="commit 1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nalog_client/driver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -86,11 +85,6 @@
             <path>
               <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +165,7 @@
       <updated>1566235698476</updated>
       <workItem from="1566235702513" duration="12377000" />
       <workItem from="1566252669189" duration="3052000" />
-      <workItem from="1566293050214" duration="447000" />
+      <workItem from="1566293050214" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="test project">
       <created>1566255418957</created>
@@ -187,11 +181,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566255733603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit 1">
+      <created>1566293624256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566293624256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15876000" />
+    <option name="totallyTimeSpent" value="16149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -306,7 +307,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test project" />
-    <option name="LAST_COMMIT_MESSAGE" value="test project" />
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/xml/ws/Service.java">
@@ -444,6 +446,13 @@
     <entry file="file://$PROJECT_DIR$/,gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nalog_client/driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -451,13 +460,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
