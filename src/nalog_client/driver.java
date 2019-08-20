@@ -4,6 +4,9 @@ import unisoft.ws.*;
 import unisoft.ws.fnsndscaws2.request.NdsRequest2;
 import unisoft.ws.fnsndscaws2.request.ObjectFactory;
 import unisoft.ws.fnsndscaws2.response.NdsResponse2;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -26,8 +29,9 @@ public class driver {
         String INN = in.nextLine();
         System.out.print("Code of reason: ");
         String KPP = in.nextLine();
-        System.out.print("Date in format(dd.mm.yy): ");
-        String DT = in.nextLine();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+        String DT = dateFormat.format(new Date());
+        System.out.print("Date in format(dd.mm.yy): " + DT);
 
         request_np.setINN(INN);
         request_np.setKPP(KPP);
