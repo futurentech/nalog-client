@@ -31,7 +31,7 @@ public class driver {
         String KPP = in.nextLine();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         String DT = dateFormat.format(new Date());
-        System.out.print("Date in format(dd.mm.yy): " + DT);
+        System.out.println("Date in format(dd.mm.yy): " + DT);
 
         request_np.setINN(INN);
         request_np.setKPP(KPP);
@@ -44,7 +44,7 @@ public class driver {
         response_list = response.getNP();
 
         result = response_list.get(0).getState();
-        System.out.println(result);
+        System.out.println("Result = " + result);
     }
 
 }
