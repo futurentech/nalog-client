@@ -41,13 +41,11 @@ public class driver {
         request_list = request.getNP();
         request_list.add(request_np);
 
-        try {
+
             response = service.ndsRequest2(request);
             response_list = response.getNP();
             result = response_list.get(0).getState();
             System.out.println("Result = " + result);
-        } catch (WebServiceException ex) {ex.printStackTrace();
-        }
 
 
     }
