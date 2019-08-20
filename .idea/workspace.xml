@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f37dd5f-936e-49ec-8320-ab444c22c7dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nalog_client_jar/nalog-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/nalog_client_jar/nalog-client.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nalog-client/nalog_client/driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nalog-client/nalog_client/driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nalog_client/driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nalog_client/driver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +22,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nalog_client/driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="400">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#FNSNDSCAWS2#0" />
+                <element signature="e#1196#1197#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="method#FNSNDSCAWS2#3;class#FNSNDSCAWS2#0" />
+                <element signature="method#FNSNDSCAWS2#5;class#FNSNDSCAWS2#0" />
+                <element signature="docComment;method#getFNSNDSCAWS2Port#0;class#FNSNDSCAWS2#0" />
+                <element signature="docComment;method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
+                <element signature="method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2Port.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="e#443#520#0" />
+                <element signature="docComment;method#ndsRequest2#0;class#FNSNDSCAWS2Port#0" />
               </folding>
             </state>
           </provider>
@@ -87,6 +123,35 @@
             <path>
               <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nalog_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nalog-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nalog-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="fnsndscaws2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +222,7 @@
       <workItem from="1566293050214" duration="1485000" />
       <workItem from="1566294589239" duration="459000" />
       <workItem from="1566296887989" duration="226000" />
-      <workItem from="1566297389727" duration="221000" />
+      <workItem from="1566297389727" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="test project">
       <created>1566255418957</created>
@@ -229,17 +294,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566297520984</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit 1">
+      <created>1566297743724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566297743724</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17839000" />
+    <option name="totallyTimeSpent" value="18303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -388,35 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#FNSNDSCAWS2#0" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="method#FNSNDSCAWS2#3;class#FNSNDSCAWS2#0" />
-            <element signature="method#FNSNDSCAWS2#5;class#FNSNDSCAWS2#0" />
-            <element signature="docComment;method#getFNSNDSCAWS2Port#0;class#FNSNDSCAWS2#0" />
-            <element signature="docComment;method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
-            <element signature="method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2Port.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#443#520#0" />
-            <element signature="docComment;method#ndsRequest2#0;class#FNSNDSCAWS2Port#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/unisoft/ws/fnsndscaws2/request/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -487,20 +530,49 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/,gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/nalog_client/driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2Port.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#443#520#0" />
+            <element signature="docComment;method#ndsRequest2#0;class#FNSNDSCAWS2Port#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unisoft/ws/FNSNDSCAWS2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#FNSNDSCAWS2#0" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="method#FNSNDSCAWS2#3;class#FNSNDSCAWS2#0" />
+            <element signature="method#FNSNDSCAWS2#5;class#FNSNDSCAWS2#0" />
+            <element signature="docComment;method#getFNSNDSCAWS2Port#0;class#FNSNDSCAWS2#0" />
+            <element signature="docComment;method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
+            <element signature="method#getFNSNDSCAWS2Port#1;class#FNSNDSCAWS2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nalog_client/driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

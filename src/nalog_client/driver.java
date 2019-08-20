@@ -5,6 +5,7 @@ import unisoft.ws.fnsndscaws2.request.NdsRequest2;
 import unisoft.ws.fnsndscaws2.request.ObjectFactory;
 import unisoft.ws.fnsndscaws2.response.NdsResponse2;
 
+import javax.xml.ws.WebServiceException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -40,11 +41,15 @@ public class driver {
         request_list = request.getNP();
         request_list.add(request_np);
 
-        response = service.ndsRequest2(request);
-        response_list = response.getNP();
+        try {
+            response = service.ndsRequest2(request);
+            response_list = response.getNP();
+            result = response_list.get(0).getState();
+            System.out.println("Result = " + result);
+        } catch (WebServiceException ex) {ex.printStackTrace();
+        }
 
-        result = response_list.get(0).getState();
-        System.out.println("Result = " + result);
+
     }
 
 }
